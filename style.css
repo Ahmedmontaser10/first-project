@@ -1,0 +1,47 @@
+html , body, h1, ul{
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    background-color: #8ba8d9;
+    border: solid black 4px;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+#snake-image{
+
+    border: 4px black solid;
+    margin-top: 15px;
+}
+h1{width: 90%;
+    color: rgb(255, 255, 255);  
+    text-decoration: underline;
+    border: 4px black solid;
+    padding: 4px;
+    margin: 5px;
+
+}
+#first-p{
+    color: rgb(61, 135, 68);
+}
+hr{ 
+border: solid #458966 2px;
+}
+ul{
+    list-style: none;
+    
+}
+#hr-last{
+    border: dotted #894545 5px;
+}
+#second-p{
+    color: rgb(143, 35, 112);
+}
+#becarful{
+    font-weight: bold;
+    color: #000000;
+}
