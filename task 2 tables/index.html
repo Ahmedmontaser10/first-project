@@ -7,151 +7,132 @@
     <title>Tables</title>
     </head>
     <body>
-        <div class="titels" style="text-align: center;">
-            <h1>1<sup>st</sup>Session</h1>
-            <caption>Table(1)</caption>
-        </div>
-        
-
-        <div align="center" border="4px">  <!--Dont Use Inline Style  style="border: 4px solid; text-align: center; width: 50%; margin: auto;" style="width: 100%;" style="background-color: brown;"  style="background-color: brown;"-->
+        <div align="center" border="2px solid">
             <div>
-                <table border="1" >
-                    <tr>
-                        <th colspan="2" >Links</th>
-                        <th >Description</th>
-                    </tr>
-                    <tr>
-                        <td>Stack overflow</td>
-                        <td>https://stackoverflow.com</td>
-                        <td>.......</td>
-                    </tr>
-                    <tr>
-                        <td>W3school</td>
-                        <td> https://W3school.co</td>
-                        <td rowspan="2">.......</td>
-                    </tr>
-                    <tr>
-                        <td>Laracast</td>
-                        <td> https://Laracast.com</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">stockCoder</td>
-                    </tr>
-                </table>    
+                <h1>1<sup>st</sup>Session</h1>
+                <caption>Table(1)</caption>
             </div>
-            <!-- ************************************* -->
-            <div class="mid-section" >
-                <div style="background-color: bisque;" >
-                <p style="width: 150px; margin-top:50px;">Send E-mail(Form)</p>
-                </div>
-                <div style="margin-left: 160px;">
-                    <form>
-                        <label for="">Subject *</label>
-                        <br>
-                        <input type="text" name="Subject" id="Subject" required placeholder="Enter Subject..">
-                        <br>
-                        <label for="">Message *</label>
-                        <br>
-                        <textarea name="Message" id="Message" required placeholder="Enter Message.."></textarea>  
-                        <br>  
-                        <label for="">Phone *</label>
-                        <br>
-                        <input type="text" name="Phone" id="Phone" required placeholder="Enter Phone..">
-
-                    </form>
-                </div>
-            </div>
-            <!-- ***************************** -->
-            <div>
-                <!-- style="width: 100%;" -->
-                <table border="1" >
-                    <tr>
-                        <th>stockCoder</th>
-                        <th><a href="#">stockCoder99@gmail.com</a></th>
-                        <th>Nasr,city,cairo</th>
-                    </tr>
-                </table>
-            </div>
-            <!-- ******************* -->
-            <!-- style="display: flex; flex-direction: row; width: 100%;" -->
-            <div >
-                <!-- style="border: 3px solid #5a7daf;" -->
-                <div class="table2" >
-                    <caption>table2</caption>
-                    <table border="1" >
-                        <tr>
-                            <th>Name</th>
-                            <th>Send mail</th>
-                            <th>phone</th>
-                        </tr>
-                        <tr>
-                            <td>stockCoder</th>
-                            <td>stockCoder99@gmail.com</th>
-                            <td>+20154998996</th>
-                        </tr>
-                    </table>    
-                </div>
-                <!--  style="border: 3px solid #7c3579; padding-left: 25px;" -->
-                <div class="table3">
-                    <caption>table(3)</caption>
+            <div border="1">
+                <div class="top-section">
                     <table border="1">
-                        <th>Name</th>
-                        <th>Send mail</th>
-                        <th>phone</th>
-                    </tr>
-                    <tr>
-                        <td>stockCoder</th>
-                        <td>stockCoder99@gmail.com</th>
-                        <td>+20154998996</th>
-                    </tr>
+                        <tr bgcolor="red">
+                            <th colspan="2" >Links</th>
+                            <th>Discription</th>
+                        </tr>
+                        <tr>
+                            <th>Stackoverflow</th>
+                            <th>W3school</th>
+                            <th>laracast</th>
+                        </tr>
+                        <tr>
+                            <th>https://Stackoverflow</th>
+                            <th>https://W3school</th>
+                            <th>https://laracast</th>
+                        </tr>
+                        <tr>
+                            <th>....</th>
+                            <th>....</th>
+                            <th>....</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center">stockcoder</td>
+                        </tr>
                     </table>
                 </div>
-            </div>
-            <!-- ***************************** -->
-            <!-- style=" display: flex;flex-direction: column;  justify-content: center; align-items: center;" -->
-            <div class="table4" >
-                <p>Table(4)</p>
-                <!-- style="border: 3px solid #266e51;" -->
+                        <div>
+                            <p>Send E-mail(form)</p>
+                            <form>
+                                <label for="subject">subject*</label>
+                                <input type="text" name="subject" id="subject" required placeholder="subject">
+                                <br>
+                                <br>
+                                <label for="message">message*</label>
+                                <textarea name="message" id="message" required placeholder="message"></textarea>
+                                <br>
+                                <br>
+                                <label for="phone">phone*</label>
+                                <input type="phone" name="phone" id="phone" required placeholder="phone">
+                            </form>
+                        </div>        
+                <!-- ************ -->
                 <div>
                     <table border="1">
                         <tr>
-                            <th>Account number</th>
-                            <th>CCV</th>
-                            <th>Transaction</th>
+                            <th>stockcoder</th>
+                            <th><a href="#">stockcoder</a></th>
+                            <th>Nasr city</th>
+                        </tr>
+                    </table>
+                </div>
+                <!-- ************* -->
+                <div>
+                    <table border="1">
+                        <caption>table(2)</caption>
+                        <tr>
+                            <td>Name</td>
+                            <td>Send email</td>
+                            <td>phone</td>
                         </tr>
                         <tr>
-                            <td>1111111111</td>
+                            <td>stockcoder</td>
+                            <td>stock@gmail.com</td>
+                            <td>+201258995566</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table border="1">
+                        <caption>table(3)</caption>
+                        <tr>
+                            <td>Name</td>
+                            <td>Send email</td>
+                            <td>phone</td>
+                        </tr>
+                        <tr>
+                            <td>stockcoder</td>
+                            <td>stock@gmail.com</td>
+                            <td>+201258995566</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <caption>Table(4)</caption>
+                    <table border="1">
+                        <tr>
+                            <th>account number</th>
+                            <th>CCV</th>
+                            <th>transaction</th>
+                        </tr>
+                        <tr>
+                            <td>111111111111111</td>
                             <td>450</td>
                             <td>
-                                <!-- style="border: 3px solid #42326a;" -->
-                                <div class="table5" >
-                                <p>table5</p>
+                                <h6 align="center">tabl(5)</h6>
                                 <table border="1">
                                     <tr>
                                         <td>-</td>
-                                        <td>Transaction</td>
+                                        <td>transaction</td>
                                     </tr>
                                     <tr>
-                                        <td>T1:</td>
-                                        <td>gsgs55dalsjt</td>
-                                </tr>
-                                    <tr>
-                                        <td>T2:</td>
-                                        <td>whjjfdsaalsjt</td>
+                                        <td>t1</td>
+                                        <td>1466999</td>
                                     </tr>
                                     <tr>
-                                        <td>T3:</td>
-                                        <td>46httffalsjt</td>
+                                        <td>t2</td>
+                                        <td>149+986+++</td>
+                                    </tr>
+                                    <tr>
+                                        <td>t3</td>
+                                        <td>14799+9++662</td>
                                     </tr>
                                 </table>
-                            </div>
                             </td>
                         </tr>
+                        
+
                     </table>
-    
                 </div>
             </div>
         </div>
-
     </body>
 </html>

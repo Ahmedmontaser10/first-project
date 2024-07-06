@@ -1,0 +1,116 @@
+#pond {
+    display: flex; 
+    justify-content: flex-end; /* العناصر على اليمين */
+  }
+  #pond {
+    display: flex; 
+    justify-content: center; /* العناصر في المنتصف */
+  }
+  #pond {
+    display: flex; 
+    justify-content: space-around; /* مساحة بين العناصر بالتساوي */
+  }
+  #pond {
+    display: flex; 
+    justify-content: space-between; /* مساحة بين العناصر بالتساوي */
+  }
+  #pond {
+    display: flex; 
+    align-items: flex-end; /* العناصر أسفل */
+  }
+  #pond {
+    display: flex; 
+    justify-content: space-evenly; /* مسافات متساوية بين العناصر */
+    align-items: center; /* العناصر في المنتصف */
+  }
+  #pond {
+    display: flex;
+    justify-content: space-around; /* مساحة بين العناصر بالتساوي */
+    align-items: flex-end; /* العناصر أسفل */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: row-reverse; /* عكس ترتيب العناصر */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: row-reverse; /* عكس ترتيب العناصر */
+    justify-content: flex-end; /* العناصر على اليمين */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    justify-content: flex-end; /* العناصر أسفل */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: column-reverse; /* عكس ترتيب العناصر عموديًا */
+    justify-content: space-between; /* مساحة بين العناصر بالتساوي */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: row-reverse; /* عكس ترتيب العناصر */
+    justify-content: center; /* العناصر في المنتصف */
+    align-items: flex-end; /* العناصر أسفل */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+  }
+  .yellow {
+    order: 1; /* ترتيب العنصر */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+  }
+  .red {
+    order: -1; /* ترتيب العنصر */
+  }
+  #pond {
+    display: flex; 
+    align-items: flex-start; /* العناصر فوق */
+  }
+  .yellow {
+    align-self: flex-end; /* العنصر أسفل */
+  }
+  #pond {
+    display: flex; 
+    flex-wrap: wrap; /* التفاف العناصر */
+  }
+  #pond {
+    display: flex; 
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    flex-wrap: wrap; /* التفاف العناصر */
+  }
+  #pond {
+    display: flex;
+    flex-wrap: wrap; /* التفاف العناصر */
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+    flex-wrap: wrap; /* التفاف العناصر */
+    align-content: flex-start; /* ترتيب المحتوى بداية */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+    flex-wrap: wrap; /* التفاف العناصر */
+    align-content: flex-end; /* ترتيب المحتوى نهاية */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+    flex-wrap: wrap; /* التفاف العناصر */
+    flex-direction: column-reverse; /* عكس ترتيب العناصر عموديًا */
+    align-content: center; /* ترتيب المحتوى في المنتصف */
+  }
+  #pond {
+    display: flex; /* استخدم flexbox للتنسيق */
+    flex-direction: column-reverse; /* عكس ترتيب العناصر عموديًا */
+    flex-wrap: wrap-reverse; /* التفاف العناصر عكسيًا */
+    justify-content: center; /* العناصر في المنتصف */
+    align-content: space-between; /* مساحة بين العناصر بالتساوي */
+  }
+  
