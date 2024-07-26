@@ -70,8 +70,8 @@ header{
     border-radius: 16px;
 }
 .home-content h1{
-    font-style: italic;
     text-align: center;
+    font-weight: bold;
 }
 .home-content h3{
     color: #17153B;
@@ -85,6 +85,10 @@ header{
     50% { top: -10px; }
     100% { top: 0; }
 }
+.aboutme{
+    color: #e9e4ec;
+    text-transform: capitalize;
+}
 .input-contact{
     width: 9rem;
     height: 40px;
@@ -93,9 +97,6 @@ header{
     border-radius: 16px;
     font-weight: bold;
 }
-/* .input-contact:hover{
-    box-shadow: 0px 5px 9px  #17153B;
-} */
 .home-img{
     background-color: #e9e4ec;
     padding: 20px;
@@ -129,60 +130,37 @@ header{
     border-radius: 5px;
     margin-left: 110px;
 }
-.skills-section {
-    background-color: #e9e4ec;
-    padding: 40px 0;
+.h2{
     text-align: center;
-}
-
-.skills-title {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #433D8B;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5em;
+    color:  #433D8B;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.skills {
+.skills{
+    text-align: center;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.skill-item {
-    flex: 1;
-    aspect-ratio: 1 / 1;
-    background-color: #e9e4ec;
-    border: 1px solid #433D8B;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
+}
+.skills div{
+    border: 1px solid  #433D8B;
+    width: calc(90% / 5);
+    margin-left: 10px;
     padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #e9e4ec;
+    margin-bottom: 30px;
 }
-
-.skill-item i {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #433D8B;
+p{
+    color:  #433D8B;
 }
-
-.skill-name {
+.skills .skill-name{
+    color: black;
     font-weight: bold;
-    margin-bottom: 5px;
-    color: #17153B;
-}
-
-.skill-description {
-    color: #433D8B;
-    font-size: 0.9em;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
 }
 .vs-code i{
     color: #008ED4;
@@ -199,10 +177,10 @@ header{
 .js i{
     color: #F7DF1D;
 }
-/* .contact-me hr{
-    display: block;
-    border: 2px solid #000000;
-} */
+.skills i{
+    font-size:40px;
+    margin-bottom: 10px;
+}
 .contact-me{
     background-color: #433D8B;
     display: flex;
@@ -235,9 +213,6 @@ textarea{
     border: #17153B 2px solid;
     border-radius: 16px;
     font-weight: bold;
-}
-.icons{
-    
 }
 .icons i{
     font-size: xx-large;
