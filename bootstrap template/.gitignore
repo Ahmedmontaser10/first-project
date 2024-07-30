@@ -1,0 +1,15 @@
+# Ignore Bootstrap package
+assets/vendor/bootstrap/
+
+# Ignore Bootstrap CDN files if they are downloaded
+bootstrap.min.css
+bootstrap.min.js
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
